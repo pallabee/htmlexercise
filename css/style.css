@@ -1,97 +1,60 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
+.container_12 {
+  background: #115EA2;
+  overflow: hidden;
 }
 
-#page {
-  min-height: 100%;
-  position: relative;
-  height: 100%;
-}
-
-header {
-  background-color: #115EA2;
-  min-height: 100px;
-  width: 100%;
-  position: relative;
-}
-
-#main {
-  width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #F1F2F3;
-  min-height: 90%;
-  height: auto;
-  height: 89%;
-  margin: 0 auto -50px;
-  vertical-align: bottom;
-}
-
-#footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  height: 35px;
-  background-color: #115EA2;
-}
-
-header img {
-  float: left;
+nav li {
   display: inline;
 }
 
-header h2 {
-  text-align: center;
-  font-size: 44px;
-  color: #FFFFFF;
-  left: 0px;
-  top: 20px;
-  font-weight: bold;
-  font-family: Sans-serif;
+aside {
+  background: green;
+}
+
+.primary {
+  background: grey;
+}
+
+header {
+  background: yellow;
+}
+
+.main {
+  margin: 30px 0;
+}
+
+section div {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.artclass {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.imgnews {
+  margin-right: 30px;
+}
+
+.imgtestimonials {
+  float: right;
+  margin-left: 30px;
+}
+
+.previewnews {
+  float: right;
+  background: white;
+
+}
+
+.previewtestimonials {
   float: left;
-  margin-top: 20px;
-  margin-left: 20px;
-  text-decoration: none;
+  background: white;
+
 }
-
-header h2,
-a,
-a:visited,
-a:hover,
-a:active {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-
-/* NAVIGATION BAR CODE */
-
-nav {
-  position: absolute;
-  top: 100px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #aaa;
-  color: green;
-  min-width: 800px;
-  text-align: left;
-  height: 20px;
-  padding: 10px 20px;
-}
-
-nav a {
-  font-size: 14px;
-  margin: 10px 0;
-  height: 20px;
-  padding: 12px 10px;
-  color: #000;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: #333;
+.footer{
+  float:right;
 }
