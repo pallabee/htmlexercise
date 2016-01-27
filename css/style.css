@@ -1,3 +1,15 @@
+/*CSS for header title*/
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
+  text-shadow: 5px 10px 10px #5A5957;
+  letter-spacing: 8px;
+}
+
+
+/*Css for body*/
+
 body {
   font-family: cursive;
 }
@@ -10,10 +22,13 @@ body {
   background: white;
 }
 
+
+/*Css for Navigation Bar*/
+
 nav li {
+  font-family: 'Josefin Sans';
   display: inline;
-  padding-right: 5px;
-  font-weight: bold;
+  font-size: 17px;
 }
 
 ul a {
@@ -27,9 +42,8 @@ ul a:hover {
   font-weight: bold;
 }
 
-header {
-  background: white;
-}
+
+/*CSS for 3-section column*/
 
 section div {
   -moz-box-sizing: border-box;
@@ -38,20 +52,19 @@ section div {
   padding: 15px;
 }
 
-.artclass {
-  width: 600px;
-  margin: 20px auto;
+
+/*CSS for 3-section column and aricle section*/
+
+.artheading {
+  font: bold;
+}
+
+.artfont {
   color: #848484;
 }
 
-.imgnews {
-  margin-right: 30px;
-}
 
-.imgtestimonials {
-  float: right;
-  margin-left: 30px;
-}
+/*CSS for aricle section*/
 
 .previewnews {
   float: right;
@@ -63,15 +76,42 @@ section div {
   background: #F5DA81;
 }
 
-#footer {
-  float: right;
+
+/*CSS for article section image*/
+
+.imgnews {
+  margin-right: 30px;
 }
 
-h1 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 60px;
-  text-shadow: 5px 10px 10px #5A5957;
-  letter-spacing: 8px;
+.imgtestimonials {
+  float: right;
+  margin-left: 30px;
+}
+
+
+/*CSS for Hero section*/
+
+#hero {
+  background: url(../img/hero_img.png) no-repeat;
+  position: relative;
+  height: 500px;
+  margin-left: 30px;
+}
+
+.herofontcolor {
+  font-family: 'Oswald';
+  font-size: 50px;
+  letter-spacing: 0px;
+  color: black;
+  text-shadow: 0 -3px 0 white;
+  text-align: center;
+}
+
+
+/*CSS for footer*/
+
+#footer {
+  float: right;
 }
 
 footer {
